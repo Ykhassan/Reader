@@ -1,0 +1,16 @@
+.btn {
+    padding: 8px 20px;
+    border: 0.5px solid #007bff7d;
+    border-radius: 6px;
+    color: #007bff7d;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #007bff7d;
+    color: white;
+    transition: 0.5s;
+} 
+
+/* Important note: when we define a css rule that are general and it dont apply to the component elements it will be globally on every element */

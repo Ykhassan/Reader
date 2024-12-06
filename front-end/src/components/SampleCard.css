@@ -1,0 +1,74 @@
+.playBtn {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  background-color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.playBtn:hover {
+  background-color: #007afd34;
+  transform: scale(1.1);
+}
+
+.playIcon {
+  font-size: 20px;
+  color: #007bff;
+}
+
+.sampleCard {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #007bff7d;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sampleCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.073);
+}
+
+.narratorDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 12px;
+  margin-bottom: 9px;
+}
+
+.narratorDetails img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.narratorDetails h1 {
+  font-size: 20px;
+  margin: 5px 0;
+  font-weight: 600;
+  color: #333;
+}
+
+.narratorDetails p {
+  font-size: 15px;
+  margin: 0;
+  color: #666;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.narratorDetails p img {
+  margin-right: 5px;
+}
